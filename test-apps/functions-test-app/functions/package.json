@@ -4,7 +4,7 @@
   "dependencies": {
     "bad-words": "^1.6.5",
     "capitalize-sentence": "^0.1.2",
-    "firebase-admin": "~5.10.0",
+    "firebase-admin": "~5.13.1",
     "firebase-functions": "^2.0.5"
   },
   "private": true
