@@ -5,7 +5,13 @@
     "bad-words": "^1.6.5",
     "capitalize-sentence": "^0.1.2",
     "firebase-admin": "~5.13.1",
-    "firebase-functions": "^2.3.1"
+    "firebase-functions": "^2.3.1",
+    "snyk": "^1.316.1"
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
