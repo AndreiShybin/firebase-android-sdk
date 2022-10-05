@@ -2,11 +2,17 @@
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "dependencies": {
-    "firebase-admin": "~4.2.1",
-    "firebase-functions": "^3.6.2"
+    "firebase-admin": "~5.4.3",
+    "firebase-functions": "^3.6.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@google-cloud/functions-emulator": "1.0.0-beta.4"
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
