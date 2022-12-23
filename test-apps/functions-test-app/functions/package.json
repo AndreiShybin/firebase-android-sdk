@@ -4,8 +4,8 @@
   "dependencies": {
     "bad-words": "^1.6.5",
     "capitalize-sentence": "^0.1.2",
-    "firebase-admin": "~5.13.1",
-    "firebase-functions": "^2.3.1"
+    "firebase-admin": "~11.4.1",
+    "firebase-functions": "^3.6.2"
   },
   "private": true
 }
